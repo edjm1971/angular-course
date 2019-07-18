@@ -19,7 +19,7 @@ So the state of an application is the current value of all the variables in the 
 An address in a URL can't store that much information but it can store enough so that perhaps we can re-fetch some and re-calculate the rest to get to the same _state_ as before.
 ====
 
-Giving the a URL to someone else should enable them to bring up the same _state_ in their browser.
+Giving a URL to someone else should enable them to bring up the same _state_ in their browser.
 
 In traditional applications built with _Server Side Routing_ when you change the URL in your browser, the browser makes a request to the server to return some HTML which it will display.
 
@@ -46,7 +46,7 @@ In this section you will learn:
 * How to define and configure the different URLs (routes) in your application.
 * How to navigate between those routes on the client side so the browser doesn't send a request to the server.
 * What path location strategies we can use in Angular and the advantages/disadvantages of each.
-* How to use parametrised routes where part of the URL is a variable.
+* How to use parameterised routes where part of the URL is a variable.
 * How to implement nested routes.
 * How to implement router guards to prevent certain people from accessing certain URLs.
 
